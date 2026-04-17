@@ -13,6 +13,8 @@ helm upgrade -i gitea gitea/gitea \
   --create-namespace
 ```
 
+---
+
 Run the server
 ```
 docker-compose up -d
