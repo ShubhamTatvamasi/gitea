@@ -12,7 +12,11 @@ helm upgrade -i gitea gitea/gitea \
   --namespace gitea \
   --create-namespace \
   --set service.http.type=LoadBalancer \
-  --set service.http.port=80
+  --set service.http.port=80 \
+  --set valkey-cluster.enabled=false \
+  --set valkey.enabled=true \
+  --set postgresql-ha.enabled=false \
+  --set postgresql.enabled=true
 ```
 
 ---
