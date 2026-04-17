@@ -18,7 +18,7 @@ helm upgrade -i gitea gitea/gitea \
   --set postgresql-ha.enabled=false \
   --set postgresql.enabled=true \
   --set gitea.admin.username=admin \
-  --set gitea.admin.password=admin
+  --set gitea.admin.password=admin1234
 ```
 
 ---
