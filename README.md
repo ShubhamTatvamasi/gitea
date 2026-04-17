@@ -16,7 +16,9 @@ helm upgrade -i gitea gitea/gitea \
   --set valkey-cluster.enabled=false \
   --set valkey.enabled=true \
   --set postgresql-ha.enabled=false \
-  --set postgresql.enabled=true
+  --set postgresql.enabled=true \
+  --set gitea.admin.username=admin \
+  --set gitea.admin.password=admin
 ```
 
 ---
