@@ -11,7 +11,8 @@ helm upgrade -i gitea gitea/gitea \
   --version 12.5.3 \
   --namespace gitea \
   --create-namespace \
-  --set service.http.type=LoadBalancer
+  --set service.http.type=LoadBalancer \
+  --set service.http.port=80
 ```
 
 ---
