@@ -1,5 +1,7 @@
 # gitea
 
+https://artifacthub.io/packages/helm/gitea/gitea
+
 Add repository
 ```bash
 helm repo add gitea https://dl.gitea.com/charts
